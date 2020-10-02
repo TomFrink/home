@@ -63,7 +63,7 @@ export default function Home() {
       </main>
 
       <footer>
-        This work is licensed under a{" "}
+        This work is licensed under a&nbsp;
         <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">
           Creative Commons Attribution-NonCommercial 4.0 International Public
           License
