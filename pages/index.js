@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import SlackInvite from "../src/SlackInvite";
+import Posts from "./Test";
 
 export default function Home() {
   return (
@@ -17,16 +18,17 @@ export default function Home() {
       <main>
         <h1 className="title">
           <img src="/rocdev.svg" alt="RocDev Logo" className="jumbo-logo" />
-          <p>
-            As the Greater Rochester Area's largest community of tech professionals,
-            we aim to share our experiences and knowledge with one another in an effort
-            to support and grow  as a whole. In disciplines related to Software &
-            Development such as Software Engineering, Product Management, and Quality
-            Assurance; our hope is to promote the quality and profile of the Rochester
-            Tech scene. Our members are made up of Contributors, Managers, Entrepreneurs,
-            Students, and Teachers; all with a passion for better code.
-          </p>
         </h1>
+        <p>
+          As the Greater Rochester Area's largest community of tech
+          professionals, we aim to share our experiences and knowledge with one
+          another in an effort to support and grow as a whole. In disciplines
+          related to Software & Development such as Software Engineering,
+          Product Management, and Quality Assurance; our hope is to promote the
+          quality and profile of the Rochester Tech scene. Our members are made
+          up of Contributors, Managers, Entrepreneurs, Students, and Teachers;
+          all with a passion for better code.
+        </p>
 
         <p className="description">
           Read the{" "}
@@ -38,6 +40,19 @@ export default function Home() {
         <h3>Join our Slack</h3>
         <SlackInvite />
       </main>
+
+      <article>
+        <Link href="Test">
+          <a>
+            <h1>Posts</h1>
+          </a>
+        </Link>
+      </article>
+
+      {/* TypeError: Cannot read property 'map' of undefined
+      <article>
+        <Posts />
+      </article> */}
 
       <footer>
         This work is licensed under a&nbsp;
