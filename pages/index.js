@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import SlackInvite from "../src/SlackInvite";
-import Posts from "./Test";
+// import Posts from "./Test";
+import { Meetup } from "../src/Meetup";
 
 export default function Home() {
   return (
@@ -40,6 +41,8 @@ export default function Home() {
         <h3>Join our Slack</h3>
         <SlackInvite />
       </main>
+
+      <Meetup />
 
       <article>
         <Link href="Test">

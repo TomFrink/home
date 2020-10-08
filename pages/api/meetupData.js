@@ -1,0 +1,48 @@
+// Example Response from Meetup API Console
+export const api = [
+  {
+    created: 1601593204000,
+    duration: 3600000,
+    id: "273650597",
+    name: "Hacktoberfest Office Hours (Lunch Edition)",
+    date_in_series_pattern: false,
+    status: "upcoming",
+    time: 1603468800000,
+    local_date: "2020-10-23",
+    local_time: "12:00",
+    updated: 1601593204000,
+    utc_offset: -14400000,
+    waitlist_count: 0,
+    yes_rsvp_count: 2,
+    venue: {
+      id: 26906060,
+      name: "Online event",
+      repinned: false,
+      country: "",
+      localized_country_name: "",
+    },
+    is_online_event: true,
+    group: {
+      created: 1479229150000,
+      name: "RocDev",
+      id: 21188042,
+      join_mode: "open",
+      lat: 43.16999816894531,
+      lon: -77.5999984741211,
+      urlname: "RocDev",
+      who: "Members",
+      localized_location: "Rochester, NY",
+      state: "NY",
+      country: "us",
+      region: "en_US",
+      timezone: "US/Eastern",
+    },
+    link: "https://www.meetup.com/RocDev/events/273650597/",
+    description:
+      "<p>It's the home stretch for Hacktoberfest! We'll be there to help get some PRs through or rubber duck your way though a problem.</p> ",
+    how_to_find_us:
+      "https://us02web.zoom.us/j/82614921379?pwd=SzVGN1ltd1Y1M0VVZ0JKeGdLOGduUT09",
+    visibility: "public",
+    member_pay_fee: false,
+  },
+];
